@@ -1,4 +1,4 @@
-
+'''
 Copyright © 2024 The Johns Hopkins University Applied Physics Laboratory LLC
  
 Permission is hereby granted, free of charge, to any person obtaining a copy 
@@ -17,5 +17,25 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR 
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+'''
 
+#!/usr/bin/env python
 
+from setuptools import setup
+
+__author__ = 'Ted Staley'
+__version__ = '0.1'
+
+setup(
+    name='sac_base',
+    version=__version__,
+    description='SAC base implementation, refactored from spinning-up.',
+    long_description=open('README.md').read(),
+    author=__author__,
+    author_email='edward.staley@jhuapl.edu',
+    license='TBD',
+    packages=['sac_base'],
+    keywords='sac_base',
+    classifiers=[],
+    install_requires=[]
+)
